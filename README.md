@@ -1,7 +1,5 @@
 # The Quickest CD Pipeline setup
 
-Fully automated, git push-driven CD pipeline proof of concept.
-
 Fully automated, git push-driven CD pipeline proof of concept. I was interested to see how fast is it possible to set up a pipeline that deploys changed code as soon as it is pushed. Well, it's very fast -- connecting the dots below, including configuration and firing up a Digital Ocean droplet in about an hour!
 
 1. Private DockerHub repo monitoring this GitHub repo - Docker container build triggers on `git push`
